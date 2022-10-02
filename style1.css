@@ -1,3 +1,19 @@
+/* Tablets */
+@media only screen and (min-width: 600px) {
+  body {
+    color: cyan;
+    font-size: 18pt;
+  }
+}
+
+/* Laptops */
+@media only screen and (min-width: 992px) {
+  body {
+    color: lightgreen;
+    font-size: 18pt;
+  }
+}
+
 html {
   margin: 0;
   padding: 0;
