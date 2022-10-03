@@ -1,0 +1,136 @@
+html {
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+}
+
+body {
+  color: red;
+  font-size: 1.8rem;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+}
+
+
+li {
+  color: purple;
+}
+
+h2 { 
+font-family: sans-serif;
+border-width: 0.1rem;
+border-style: dotted;
+border-color: purple;
+padding-top: 2rem;
+  color: lightgreen;
+    display: block;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.second {
+  color: yellow;
+}
+
+#lab-title {
+  color: brown;
+  font-size: 2.4rem;
+}
+
+.list-item {
+  background-color: pink;
+  width: 100%;
+}
+
+.list-item:hover {
+  background-color: lightblue;
+  cursor: pointer;
+}
+
+.img{
+max-width: 100%;
+height: 50rem;
+background: url(purepng.com-yellow-ferrari-f12tdf-carcarferrarivehicletransport-961524651506yer9b.png);
+background-position: center center;
+}
+
+div[title] {
+background-color: lightgray;
+}
+
+p::first-letter {
+color: red;
+}
+p::first-line {
+color: black;
+}
+p::selection {
+color: red;
+background: yellow;
+}
+
+.banner {
+  background-image:linear-gradient(to right, orange,yellow);
+  padding-top:5rem;
+  padding-bottom:3rem;
+  border-radius:1rem;
+}
+
+/* Tablets */
+@media only screen and (min-width: 600px) {
+  body {
+    color: blue;
+    font-size: 2rem;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .menu {
+    flex-direction: row;
+  }
+
+  .list-item {
+    width: 50%;
+  }
+
+  .img {
+    max-width: 50%;
+  }
+}
+
+/* Laptops */
+@media only screen and (min-width: 992px) {
+  body {
+    color: green;
+    font-size: 2.4rem;
+  }
+
+  img {
+    max-width: 50%;
+    height: auto;
+  }
+
+  .menu {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .list-item {
+    width: 50%;
+  }
+
+  .img {
+    max-width: 100%;
+  }
+}
