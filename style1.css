@@ -86,7 +86,7 @@ background: yellow;
 /* Tablets */
 @media only screen and (min-width: 600px) {
   body {
-    color: blueviolet;
+    color: blue;
     font-size: 2rem;
   }
 
